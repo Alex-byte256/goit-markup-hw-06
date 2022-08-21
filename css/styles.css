@@ -92,8 +92,8 @@ ul {
 .header-link {
   color: var(--title-color);
 
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-link:hover,
@@ -777,6 +777,8 @@ ul {
 }
 
 .input-title {
+  display: block;
+
   margin-bottom: 4px;
 
   font-weight: 400;
@@ -914,7 +916,7 @@ ul {
 
 .form-footer {
   padding-top: 12px;
-  margin-left: auto;
+  margin-left: 93px;
 }
 
 .footer-field {
@@ -936,6 +938,13 @@ ul {
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .btn-footer {
